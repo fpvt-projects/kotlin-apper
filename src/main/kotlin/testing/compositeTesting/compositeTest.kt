@@ -7,6 +7,18 @@ import org.junit.jupiter.api.Assertions
 
 class CompositeTest {
 
+  /*   EMPLOYEE TREE
+
+        CEO
+        ├─ HeadSales
+        │       ├─ SalesExecutive1
+        │       ├─ SalesExecutive2
+        ├─ HeadMarketing
+                ├─ Clerk1
+                ├─ Clerk2
+ */
+
+
     @Test
     fun testHeadSales(){
 
